@@ -1,0 +1,105 @@
+body {
+  background-color: hwb(0 0% 42%);
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 70px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+header {
+  background-color: hwb(0 0% 42%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: hwb(0 0% 42%);
+  color: hsl(0, 0%, 0%);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  color: hsl(0, 0%, 0%);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: hwb(0 0% 42%);
+}
+
+div {
+  background-color: rgb(176, 26, 26);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background: hwb(0 0% 42%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 0%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hwb(0 0% 42%);
+}
+
+h1, h3, h2, h4, p, h5 {
+  background-color: hwb(0 0% 42%);
+  color: #000000;
+}
+
+h1, h3, h2 {
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+}
+
+h5 {
+  text-align: left;
+  font-size: larger;
+}
+
+h2 {
+  text-align: center;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

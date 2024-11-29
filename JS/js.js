@@ -1,0 +1,1 @@
+alert ("Hello and welcome to a site about Jack and Joker")
